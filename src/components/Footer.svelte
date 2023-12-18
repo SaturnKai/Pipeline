@@ -49,19 +49,18 @@
     }
 
     .container * {
-        color: #fefefe;
+        color: var(--subheading);
     }
     
-    .column a,
-    .column p {
-        color: var(--subheading);
+    .column a {
+        color: #eee;
         margin-top: 0.5em;
         text-decoration: none;
         display: block;
     }
 
     .column a:hover {
-        filter:brightness(1.25)
+        color: var(--primary);
     }
 
     .footer {
@@ -89,11 +88,6 @@
 
     .brand img {
         filter: invert(1);
-    }
-
-    .address {
-        font-size: 0.9rem;
-        font-weight: 300;
     }
 
     .extra {

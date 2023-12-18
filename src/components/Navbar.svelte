@@ -12,7 +12,7 @@
             <a href="/events">
                 Events
             </a>
-            <a href="/about">
+            <a href="/roadmap">
                 Roadmap
             </a>
             <a href="/about">
@@ -31,18 +31,30 @@
 </nav>
 
 <style lang="scss">
+
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
         max-width: var(--site-max-width);
-        height: 4rem;
+        height: 5rem;
 
         padding: 0 3.5em 0 3.5em;
         margin: 0 auto;
 
         user-select: none;
+    }
+
+    .brand a, .brand img {
+        height:28px;
+        width:28px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .tabs {
@@ -59,6 +71,7 @@
 
         padding: 0.5em;
         font-weight: 500;
+        font-size: 0.9rem;
     }
 
     .tabs a:hover {
@@ -67,7 +80,9 @@
 
     .tabs a.special {
         padding: 0.5rem 1rem 0.5rem 1rem;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
+
+        font-weight: 600;
 
         border: 2px solid var(--container-stroke);
         border-radius: 2rem;
