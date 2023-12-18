@@ -4,6 +4,17 @@
 
 <div class="main-layout">
 	<div class="section">
+		<div class="c1 test">
+			<img class="logo" src="/assets/UNLV-186.png" alt="UNLV logo." draggable="false" />
+			<h1 class="title">IT Workforce Talent Pipeline</h1>
+			<p class="title-secondary">Young minds, bright futures</p>
+		</div>
+		<div class="c2">
+			<img class="main-image" src="/assets/main-image.png" alt="main." draggable="false" />
+		</div>
+	</div>
+
+	<div class="section">
 		<div class="c1">
 			<h2 class="section-title">What do we have to offer?</h2>
 			<p class="description">
@@ -55,6 +66,25 @@
 </div>
 
 <style lang="scss">
+	.logo {
+		width: 150px;
+	}
+
+	.title {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.title-secondary {
+		font-weight: 500;
+		color: #848484;
+	}
+
+	.main-image {
+		width: 500px;
+		border-radius: 10px;
+	}
+
 	.main-layout {
 		max-width: var(--site-max-width);
 		margin: 0 auto;
@@ -63,7 +93,9 @@
 	.section {
 		display: flex;
 		justify-content: space-between;
-		margin: 80px 10px;
+		margin: 80px 40px;
+		align-items: center;
+		margin-bottom: 140px;
 	}
 
 	.section-title {
