@@ -6,21 +6,21 @@
     </div>
     <div class="tabs">
         <div class="left">
-            <a href="https://www.google.com">
+            <a href="/showcase">
                 Showcase
             </a>
-            <a href="https://www.google.com">
+            <a href="/events">
                 Events
             </a>
-            <a href="https://www.google.com">
+            <a href="/about">
                 About
             </a>
         </div>
         <div class="right">
-            <a href="https://www.google.com">
+            <a href="/portal">
                 Portal
             </a>
-            <a class="special" href="https://www.google.com">
+            <a class="special" href="/apply">
                 Apply
             </a>
         </div>
