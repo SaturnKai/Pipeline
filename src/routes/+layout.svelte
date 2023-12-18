@@ -8,8 +8,21 @@
 	<Navbar />
 </header>
 <main>
-	<slot />
+	<div class="layout">
+		<slot />
+	</div>
 </main>
 <footer>
 	<Footer />
 </footer>
+
+
+<style lang="scss">
+	.layout {
+		max-width: var(--site-max-width);
+		margin: 0 auto;
+	}
+	main, .layout {
+		padding: 0 2em 0 2em;
+	}
+</style>

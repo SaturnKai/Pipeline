@@ -13,6 +13,9 @@
                 Events
             </a>
             <a href="/about">
+                Roadmap
+            </a>
+            <a href="/about">
                 About
             </a>
         </div>
