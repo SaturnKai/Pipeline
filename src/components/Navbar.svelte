@@ -39,7 +39,7 @@
         max-width: var(--site-max-width);
         height: 4rem;
 
-        padding: 0 1.75em 0 1.75em;
+        padding: 0 3.5em 0 3.5em;
         margin: 0 auto;
 
         user-select: none;

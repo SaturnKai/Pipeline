@@ -1,81 +1,75 @@
 <script lang="ts">
 	import Benefit from 'components/Benefit.svelte';
+	import SectionTitle from 'components/SectionTitle.svelte';
 </script>
 
-<div class="main-layout">
-	<div class="section">
-		<div class="c1 test">
-			<img class="logo" src="/assets/UNLV-186.png" alt="UNLV logo." draggable="false" />
-			<h1 class="title">IT Workforce Talent Pipeline</h1>
-			<p class="title-secondary">Young minds, bright futures</p>
-		</div>
-		<div class="c2">
-			<img class="main-image" src="/assets/main-image.png" alt="main." draggable="false" />
-		</div>
+<div class="hero">
+	<div class="content">
+		<img class="logo" src="/assets/brand/unlv.png" alt="UNLV logo." draggable="false" />
+		<h1 class="title">IT Workforce Talent<br>Pipeline Project</h1>
+		<p class="subtitle">Young Minds, Bright Futures.</p>
 	</div>
-
-	<div class="section">
-		<div class="c1">
-			<h2 class="section-title">What do we have to offer?</h2>
-			<p class="description">
-				This <b>year-long</b> program accelerates learning for high school juniors and seniors with
-				<b>IT experience</b>, guiding them towards advanced education and <b>IT careers</b>. Aligned
-				with the national <b>IT Competency Model</b>, it focuses on foundational, technical, and
-				job-specific skills through internships. Our <b>2023-2024</b> cohort features
-				<b>30 Grade 11 & 12 students</b> poised for success.
-			</p>
-		</div>
-		<div class="c2">
-			<img
-				class="image"
-				src="/assets/cat-bread.png"
-				alt="cat eating bread placeholder."
-				draggable="false"
-			/>
-		</div>
+	<div class="media">
+		<img src="/assets/img/main-image.png" alt="main." draggable="false" />
 	</div>
+</div>
 
-<h2 class="benefits-title">Benefits</h2>
-<div class="separator" />
+<div class="section">
+	<div class="c1">
+		<h2 class="section-title">What do we have to offer?</h2>
+		<p class="description">
+			This <b>year-long</b> program accelerates learning for high school juniors and seniors with
+			<b>IT experience</b>, guiding them towards advanced education and <b>IT careers</b>. Aligned
+			with the national <b>IT Competency Model</b>, it focuses on foundational, technical, and
+			job-specific skills through internships. Our <b>2023-2024</b> cohort features
+			<b>30 Grade 11 & 12 students</b> poised for success.
+		</p>
+	</div>
+	<div class="c2">
+		<img
+			class="image"
+			src="/assets/img/cat-bread.png"
+			alt="cat eating bread placeholder."
+			draggable="false"
+		/>
+	</div>
+</div>
+
+<SectionTitle>Benefits</SectionTitle>
 <div class="benefits">
 	<div class="benefits-row">
-		<Benefit title="Training and Credits" color="#B01F24">
+		<Benefit title="Training and Credits" color="var(--primary)">
 			Technical & employability skills training, resulting in <b>6 UNLV</b> credits and
 			<b>1 high school</b> credit.
 		</Benefit>
-		<Benefit title="Mentorship and Tutoring" color="#888CBA">
+		<Benefit title="Mentorship and Tutoring" color="var(--secondary)">
 			Online assistance with <b>course material</b> and <b>general questions</b>.
 		</Benefit>
-		<Benefit title="Interview and Internships" color="#B01F24">
+		<Benefit title="Interview and Internships" color="var(--primary)">
 			A <b>guaranteed interview</b> for program completers, including a <b>full-time paid</b> internship.
 		</Benefit>
 	</div>
 	<div class="benefits-row">
-		<Benefit title="Paid Certification Fees" color="#888CBA">
+		<Benefit title="Paid Certification Fees" color="var(--secondary)">
 			Technical & employability skills training, resulting in <b>6 UNLV</b> credits and
 			<b>1 high school</b> credit.
 		</Benefit>
-		<Benefit title="Full-Time Summer Internship" color="#B01F24">
+		<Benefit title="Full-Time Summer Internship" color="var(--primary)">
 			Online assistance with <b>course material</b> and <b>general questions</b>.
 		</Benefit>
-		<Benefit title="Over 4,000$ in Value" color="#888CBA">
+		<Benefit title="Over 4,000$ in Value" color="var(--secondary)">
 			A <b>guaranteed interview</b> for program completers, including a <b>full-time paid</b> internship.
 		</Benefit>
 	</div>
 </div>
 
 <style lang="scss">
-	.main-layout {
-		max-width: var(--site-max-width);
-		margin: 0 auto;
-	}
 
 	.section {
 		display: flex;
 		justify-content: space-between;
-		margin: 80px 40px;
 		align-items: center;
-		margin-bottom: 140px;
+		margin: 4em 0 4em 0;
 	}
 
 	.section-title {
@@ -104,22 +98,6 @@
 		transform: rotate(10deg);
 	}
 
-	.benefits-title {
-		font-size: 1.1rem;
-		font-weight: 400;
-		color: #777777;
-		text-align: center;
-		margin-top: 40px;
-		margin-bottom: 20px;
-	}
-
-	.separator {
-		width: 600px;
-		border-top: 2px solid rgba(146, 146, 146, 0.2);
-		border-radius: 8px;
-		margin: 0 auto;
-	}
-
 	.benefits {
 		margin-top: 50px;
 		margin-bottom: 100px;
@@ -130,5 +108,26 @@
 		gap: 1rem;
 		justify-content: center;
 		margin-bottom: 20px;
+	}
+
+	.hero {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 4em 0 4em 0;
+	}
+
+	.hero > .content > .logo {
+		height: 2rem;
+		margin-bottom: 1em;
+	}
+
+	.hero > .content > .title {
+		margin-bottom: 0.5em;
+	}
+
+	.hero > .media img {
+		border-radius: 1rem;
+		max-height: 350px;
 	}
 </style>

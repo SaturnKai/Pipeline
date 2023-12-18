@@ -23,6 +23,6 @@
 		margin: 0 auto;
 	}
 	main, .layout {
-		padding: 0 2em 0 2em;
+		padding: 0 2.5em 0 2.5em;
 	}
 </style>
