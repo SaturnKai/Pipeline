@@ -2,27 +2,38 @@
 	import Benefit from 'components/Benefit.svelte';
 </script>
 
+<div class="main-layout">
+	<div class="section">
+		<div class="c1 test">
+			<img class="logo" src="/assets/UNLV-186.png" alt="UNLV logo." draggable="false" />
+			<h1 class="title">IT Workforce Talent Pipeline</h1>
+			<p class="title-secondary">Young minds, bright futures</p>
+		</div>
+		<div class="c2">
+			<img class="main-image" src="/assets/main-image.png" alt="main." draggable="false" />
+		</div>
+	</div>
 
-<div class="section">
-	<div class="c1">
-		<h2 class="section-title">What do we have to offer?</h2>
-		<p class="description">
-			This <b>year-long</b> program accelerates learning for high school juniors and seniors with
-			<b>IT experience</b>, guiding them towards advanced education and <b>IT careers</b>. Aligned
-			with the national <b>IT Competency Model</b>, it focuses on foundational, technical, and
-			job-specific skills through internships. Our <b>2023-2024</b> cohort features
-			<b>30 Grade 11 & 12 students</b> poised for success.
-		</p>
+	<div class="section">
+		<div class="c1">
+			<h2 class="section-title">What do we have to offer?</h2>
+			<p class="description">
+				This <b>year-long</b> program accelerates learning for high school juniors and seniors with
+				<b>IT experience</b>, guiding them towards advanced education and <b>IT careers</b>. Aligned
+				with the national <b>IT Competency Model</b>, it focuses on foundational, technical, and
+				job-specific skills through internships. Our <b>2023-2024</b> cohort features
+				<b>30 Grade 11 & 12 students</b> poised for success.
+			</p>
+		</div>
+		<div class="c2">
+			<img
+				class="image"
+				src="/assets/cat-bread.png"
+				alt="cat eating bread placeholder."
+				draggable="false"
+			/>
+		</div>
 	</div>
-	<div class="c2">
-		<img
-			class="image"
-			src="/assets/cat-bread.png"
-			alt="cat eating bread placeholder."
-			draggable="false"
-		/>
-	</div>
-</div>
 
 <h2 class="benefits-title">Benefits</h2>
 <div class="separator" />
@@ -54,10 +65,17 @@
 </div>
 
 <style lang="scss">
+	.main-layout {
+		max-width: var(--site-max-width);
+		margin: 0 auto;
+	}
+
 	.section {
 		display: flex;
 		justify-content: space-between;
-		margin: 80px 10px;
+		margin: 80px 40px;
+		align-items: center;
+		margin-bottom: 140px;
 	}
 
 	.section-title {
