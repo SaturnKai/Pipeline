@@ -63,8 +63,7 @@
 	.section {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 80px;
-		margin-inline: 10px;
+		margin: 80px 10px;
 	}
 
 	.section-title {
@@ -94,11 +93,24 @@
 	}
 
 	.benefits-title {
+		font-size: 1.1rem;
+		font-weight: 400;
 		color: #777777;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.separator {
+		width: 600px;
+		border-top: 2px solid rgba(146, 146, 146, 0.2);
+		border-radius: 8px;
+		margin: 0 auto;
 	}
 
 	.benefits {
-		margin-top: 80px;
+		margin-top: 50px;
+		margin-bottom: 100px;
 	}
 
 	.benefits-row {
