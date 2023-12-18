@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+:root {
+	--primary: #B01F24;
+	--secondary: #888CBA;
+
+	--dark: #101010;
+
+	--container: #FBFBFB;
+	--container-stroke: #EDEDED;
+
+	--heading: #101010;
+	--subheading: #848484;
+	--text: #4E4E4E;
+
+}
+
 *,
 *::before,
 *::after {
@@ -7,4 +22,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	color: var(--heading);
+}
+
+h4, h5, h6 {
+	color: var(--subheading);
+}
+
+p {
+	color: var(--text);
 }
