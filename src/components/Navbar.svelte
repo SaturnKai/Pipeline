@@ -71,7 +71,7 @@
 
         padding: 0.5em;
         font-weight: 500;
-        font-size: 0.9rem;
+        font-size: 0.925rem;
     }
 
     .tabs a:hover {

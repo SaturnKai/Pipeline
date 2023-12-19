@@ -15,7 +15,7 @@
 </div>
 
 <div class="section">
-	<div class="c1">
+	<div>
 		<h2 class="section-title">What do we have to offer?</h2>
 		<p class="description">
 			This <b>year-long</b> program accelerates learning for high school juniors and seniors with
@@ -25,7 +25,7 @@
 			<b>30 Grade 11 & 12 students</b> poised for success.
 		</p>
 	</div>
-	<div class="c2">
+	<div>
 		<img
 			class="image"
 			src="/assets/img/cat-bread.png"
@@ -123,6 +123,7 @@
 	}
 
 	.hero > .content > .title {
+		font-size: 2.5rem;
 		margin-bottom: 0.5em;
 	}
 
