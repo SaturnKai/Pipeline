@@ -93,4 +93,33 @@
 			d="M12 18V6"
 		/></svg
 	>
+{:else if name == 'briefcase'}
+	<svg 
+		style="stroke: {color};"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		stroke-width="2"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="lucide lucide-briefcase"
+		>
+		<rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+	</svg>
+{:else if name == 'cpu'}
+<svg 
+		style="stroke: {color};"
+		xmlns="http://www.w3.org/2000/svg"
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		stroke-width="2"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="lucide lucide-cpu"
+		>
+	<rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/>
+</svg>
 {/if}
+

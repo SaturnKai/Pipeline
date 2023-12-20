@@ -6,14 +6,14 @@
 	</div>
 	<div class="tabs">
 		<div class="left">
-			<a href="#"> Showcase </a>
-			<a href="#"> Events </a>
-			<a href="#"> Roadmap </a>
-			<a href="#"> About </a>
+			<a href="/#"> Showcase </a>
+			<a href="/#"> Events </a>
+			<a href="/#"> Roadmap </a>
+			<a href="/about"> About </a>
 		</div>
 		<div class="right">
-			<a href="#"> Portal </a>
-			<a class="special" href="#"> Apply </a>
+			<a href="/#"> Portal </a>
+			<a class="special" href="/apply"> Apply </a>
 		</div>
 	</div>
 </nav>

@@ -6,15 +6,15 @@
 			</div>
 			<div class="column">
 				<h4>News</h4>
-				<a href="#">Instagram</a>
-				<a href="#">Twitter</a>
+				<a href="/#">Instagram</a>
+				<a href="/#">Twitter</a>
 			</div>
 			<div class="column">
 				<h4>Program</h4>
-				<a href="#">Student Showcase</a>
-				<a href="#">Upcoming Events</a>
-				<a href="#">Application</a>
-				<a href="#">About</a>
+				<a href="/#">Student Showcase</a>
+				<a href="/#">Upcoming Events</a>
+				<a href="/apply">Application</a>
+				<a href="/about">About</a>
 			</div>
 			<div class="column">
 				<h4>UNLV</h4>
