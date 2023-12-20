@@ -1,21 +1,15 @@
 <script lang="ts">
 	export let title: string;
-	export let color: string;
+	export let iconName: string;
+	export let iconColor: string;
+
+	import Icon from './Icon.svelte';
 </script>
 
 <div class="benefit">
-	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		viewBox="0 0 24 24"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="2"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		class="icon lucide lucide-graduation-cap"
-		style="stroke: {color};"
-		><path d="M22 10v6M2 10l10-5 10 5-10 5z" /><path d="M6 12v5c3 3 9 3 12 0v-5" /></svg
-	>
+	<div class="icon">
+		<Icon name={iconName} color={iconColor} />
+	</div>
 	<h2 class="title">{title}</h2>
 	<p class="description"><slot /></p>
 </div>
@@ -40,7 +34,7 @@
 
 	.title {
 		font-size: 1.1rem;
-		margin-top: 0.3em;
+		margin-top: 0.4em;
 	}
 
 	.description {
