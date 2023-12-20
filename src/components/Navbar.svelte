@@ -13,7 +13,7 @@
 		</div>
 		<div class="right">
 			<a href="#"> Portal </a>
-			<a class="special" href="/apply"> Apply </a>
+			<a class="special" href="#"> Apply </a>
 		</div>
 	</div>
 </nav>

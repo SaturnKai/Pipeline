@@ -8,7 +8,6 @@
 				<h4>News</h4>
 				<a href="#">Instagram</a>
 				<a href="#">Twitter</a>
-				<a href="#">Blog?</a>
 			</div>
 			<div class="column">
 				<h4>Program</h4>

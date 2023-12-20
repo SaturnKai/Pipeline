@@ -75,7 +75,53 @@
 	</div>
 </div>
 
+<SectionTitle>Our Sponsors</SectionTitle>
+<div class="sponsors">
+	<div class="sponsors-row">
+		<img src="/assets/img/sponsors/ccsd.png" alt="ccsd" />
+		<img src="/assets/img/sponsors/cte.png" alt="cte" />
+		<img src="/assets/img/sponsors/comptia.png" alt="comptia" />
+		<img src="/assets/img/sponsors/city-north-las-vegas.svg" alt="city of las vegas" />
+		<img src="/assets/img/sponsors/water-district.png" alt="water district" />
+	</div>
+	<div class="sponsors-row">
+		<img src="/assets/img/sponsors/osit.png" alt="osit" />
+		<img src="/assets/img/sponsors/codingscape.png" alt="codingscape" />
+		<img src="/assets/img/sponsors/aristocrat.png" alt="aristocrat" />
+		<img src="/assets/img/sponsors/unlv.png" alt="unlv" />
+	</div>
+</div>
+
 <style lang="scss">
+	.sponsors {
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
+
+	.sponsors-row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		max-width: 80vw;
+		margin: 0 auto;
+	}
+
+	.sponsors-row img {
+		filter: saturate(0) contrast(0.75);
+		opacity: 0.75;
+		transition: 100ms ease;
+		width: 150px;
+		height: 150px;
+		object-fit: contain;
+
+		&:hover {
+			filter: saturate(1);
+			opacity: 1;
+		}
+	}
+
 	.section {
 		display: flex;
 		justify-content: space-between;
