@@ -3,10 +3,14 @@
 	import SectionTitle from 'components/SectionTitle.svelte';
 </script>
 
+<svelte:head>
+	<title>Home | IT Workforce Pipeline</title>
+</svelte:head>
+
 <div class="hero">
 	<div class="content">
 		<img class="logo" src="/assets/brand/unlv.png" alt="UNLV logo." draggable="false" />
-		<h1 class="title">IT Workforce Talent<br>Pipeline Project</h1>
+		<h1 class="title">IT Workforce Talent<br />Pipeline Project</h1>
 		<p class="subtitle">Young Minds, Bright Futures.</p>
 	</div>
 	<div class="media">
@@ -38,33 +42,40 @@
 <SectionTitle>Benefits</SectionTitle>
 <div class="benefits">
 	<div class="benefits-row">
-		<Benefit title="Training and Credits" color="var(--primary)">
+		<Benefit title="Training and Credits" iconName="graduation-cap" iconColor="var(--primary)">
 			Technical & employability skills training, resulting in <b>6 UNLV</b> credits and
 			<b>1 high school</b> credit.
 		</Benefit>
-		<Benefit title="Mentorship and Tutoring" color="var(--secondary)">
+		<Benefit
+			title="Mentorship and Tutoring"
+			iconName="heart-handshake"
+			iconColor="var(--secondary)"
+		>
 			Online assistance with <b>course material</b> and <b>general questions</b>.
 		</Benefit>
-		<Benefit title="Interview and Internships" color="var(--primary)">
+		<Benefit title="Interview and Internships" iconName="file-check" iconColor="var(--primary)">
 			A <b>guaranteed interview</b> for program completers, including a <b>full-time paid</b> internship.
 		</Benefit>
 	</div>
 	<div class="benefits-row">
-		<Benefit title="Paid Certification Fees" color="var(--secondary)">
+		<Benefit title="Paid Certification Fees" iconName="shield-check" iconColor="var(--secondary)">
 			Technical & employability skills training, resulting in <b>6 UNLV</b> credits and
 			<b>1 high school</b> credit.
 		</Benefit>
-		<Benefit title="Full-Time Summer Internship" color="var(--primary)">
+		<Benefit title="Full-Time Summer Internship" iconName="building-2" iconColor="var(--primary)">
 			Online assistance with <b>course material</b> and <b>general questions</b>.
 		</Benefit>
-		<Benefit title="Over 4,000$ in Value" color="var(--secondary)">
+		<Benefit
+			title="Over 4,000$ in Value"
+			iconName="circle-dollar-sign"
+			iconColor="var(--secondary)"
+		>
 			A <b>guaranteed interview</b> for program completers, including a <b>full-time paid</b> internship.
 		</Benefit>
 	</div>
 </div>
 
 <style lang="scss">
-
 	.section {
 		display: flex;
 		justify-content: space-between;
@@ -84,6 +95,11 @@
 			background: #b01f24;
 			transform: translateX(-20px);
 		}
+	}
+
+	.subtitle {
+		font-weight: 500;
+		color: #848484;
 	}
 
 	.description {
