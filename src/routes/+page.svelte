@@ -1,6 +1,6 @@
 <script lang="ts">
 	import BenefitsSection from 'components/BenefitsSection.svelte';
-import SectionTitle from 'components/SectionTitle.svelte';
+	import SectionTitle from 'components/SectionTitle.svelte';
 </script>
 
 <svelte:head>
@@ -39,7 +39,7 @@ import SectionTitle from 'components/SectionTitle.svelte';
 	</div>
 </div>
 
-<BenefitsSection></BenefitsSection>
+<BenefitsSection />
 
 <SectionTitle>Our Sponsors</SectionTitle>
 <div class="sponsors">
